@@ -1,0 +1,296 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar-header .flexbox a {
+    font-size: 9pt;
+    border: 1px solid rgb(107, 106, 106);
+    border-radius: 0;
+    margin: 10px 12px;
+    padding: 5px 30px;
+    
+}
+.navbar-header{
+    background-color: #0c3a2d;
+}
+#topHeader {
+    border-bottom: 1px solid #585757;
+}
+.topnav {
+    background-color: #0c3a2d;
+   
+}
+
+.topnav img {
+    width: 100px;
+    height:auto;
+    margin: 0;
+    padding: 0;
+}
+.navbar-default {
+    border-color:#585757;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    list-style:none;
+}
+
+.nav>li>a{
+    padding: 20px 30px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .menu .active a {
+    color: #fff;
+    background-color: #5e8a7d;
+    border-radius: 5px;
+}
+.button {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+.btn .network-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn {
+    border: none;
+    border-radius: 30px;
+    padding: 16px 32px;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color:#5e8a7d;
+    color: #fff;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #000000;
+    background: url(../img/banner7.jpg) no-repeat center center ;
+    background-size: cover;
+    
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.img-responsive {
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgb(20, 20, 20);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #0c3a2d;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #0c3a2d;
+    border-bottom: 1px solid #0c3a2d;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.section-heading-client {
+    color: #fff;
+    line-height: 45px;
+}
+.section-heading-client span{
+    font-size: 35px;
+    color: #02f5b0;
+
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+.section-heading .services {
+    color: #000000;
+   
+}
+.section-heading .services ul, li, a{
+    color: #fff;
+    display:block;
+    line-height: 30px;
+    font-size: 16px;
+}
+.section-heading .services  ul, li, a:hover {
+    color: #92d4c0;
+    text-decoration: none;
+   
+}
+.services  ul, li, a:hover {
+    font-size: 18px;
+    transition: all .37s;
+   
+}
+.section-heading-consult {
+    text-transform: uppercase;
+    
+}
+.section-consult .consult {
+    color:#000000;
+    font-size: 16px;
+}
+.lead-consult {
+    font-size: 16px;
+}
+.section-consult .consult:hover {
+    color: #117456;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .37s;
+}
+
+.banner {
+   
+    padding: 100px 100px;
+    color: #f8f8f8;
+    background: url(../img/banner5.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 3em;
+    color: #000000;
+    float: right;
+}
+.banner p {
+    color: #000000;
+    float: right;
+    
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    color: #000000;
+}
+footer a {
+    color: #000000;
+    font-size: 15px;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
